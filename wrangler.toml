@@ -28,3 +28,6 @@ main = "dist/index.js"
 type = "CompiledContentType"
 globs = ["**/*.js"]
 fallthrough = true
+
+[assets]
+directory = "./dist"
