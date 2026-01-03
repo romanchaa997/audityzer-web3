@@ -4,6 +4,7 @@ account_id = "44413650497549d4e08c7040d1710225"
 workers_dev = true
 route = ""
 zone_id = ""
+compatibility_date = "2026-01-03"
 
 [env.production]
 vars = { ENVIRONMENT = "production" }
@@ -31,8 +32,4 @@ fallthrough = true
 
 [assets]
 directory = "./dist"
-
-compatibility_date = "2026-01-03"
-
-[assets]
-directory = "./dist"
+include = ["*.html", "*.css", "*.js", "*.json"]
