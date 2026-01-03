@@ -1,0 +1,13 @@
+# Redirect HTTP to HTTPS
+http://* https://:splat 301
+
+# Redirect www to non-www
+https://www.audityzer-web3.com/* https://audityzer-web3.com/:splat 301
+
+# Redirect HTML pages without extension
+/index.html /
+/about.html /about
+/contact.html /contact
+
+# Cache rules based on file type
+/* Cache-Control: public, max-age=3600
