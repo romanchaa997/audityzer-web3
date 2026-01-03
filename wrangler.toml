@@ -1,6 +1,6 @@
 name = "audityzer-web3"
 type = "javascript"
-account_id = ""
+account_id = "44413650497549d4e08c7040d1710225"
 workers_dev = true
 route = ""
 zone_id = ""
