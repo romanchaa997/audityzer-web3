@@ -1,0 +1,30 @@
+name = "audityzer-web3"
+type = "javascript"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
+route = "audityzer-web3.com/*"
+zone_id = ""
+
+[env.staging]
+vars = { ENVIRONMENT = "staging" }
+route = "staging.audityzer-web3.com/*"
+zone_id = ""
+
+[build]
+command = "npm install && npm run build"
+cwd = "./"
+main = "src/index.js"
+watch_paths = ["src/**/*.js"]
+
+[build.upload]
+main = "dist/index.js"
+
+[[build.upload.rules]]
+type = "CompiledContentType"
+globs = ["**/*.js"]
+fallthrough = true
