@@ -1,0 +1,16 @@
+{
+  "users": [],
+  "posts": [],
+  "comments": [],
+  "config": {
+    "version": "1.0.0",
+    "domain": "audityzer.web3",
+    "environment": "production",
+    "database_type": "json"
+  },
+  "metadata": {
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z",
+    "last_backup": null
+  }
+}
