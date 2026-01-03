@@ -33,3 +33,4 @@ fallthrough = true
 [assets]
 directory = "./dist"
 include = ["*.html", "*.css", "*.js", "*.json"]
+include = ["*.html", "*.css", "*.js", "*.json"]
